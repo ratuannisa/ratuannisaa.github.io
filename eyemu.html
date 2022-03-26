@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ratu Website</title>
+    
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    
+        <!-- font awesome cdn link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    
+        <!-- custom css file link  -->
+        <link rel="stylesheet" href="css/style.css">
+    
+    </head>
+    <body>
+        
+<!-- header section starts  -->
+    
+    <header class="header">
+    
+        <a href="index.html" class="logo"><img src="image/logo.png"></a>
+    
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="product.html">products</a>
+            <a href="categories.html">categories</a>
+            <a href="services.html">services</a>
+        </nav>
+    
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-bag" id="bag-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+    
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    
+        <div class="shopping-bag">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/2.png" alt="">
+                <div class="content">
+                    <h3>Perfume</h3>
+                    <span class="price">Rp559.000</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/13.png" alt="">
+                <div class="content">
+                    <h3>blush on</h3>
+                    <span class="price">Rp99.000</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : Rp658.000 </div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+    
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+    
+    </header>
+    
+<!-- header section ends -->
+
+<!-- features section starts  -->
+
+<section class="features" id="features">
+
+    <h1 class="heading"> our <span>products</span> </h1>
+
+    <div class="box-container">
+
+
+        <div class="box">
+            <img src="image/7.png" alt="">
+            <h3>Mascara</h3>
+            <div class="price"> Rp69.000 </div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="image/12.png" alt="">
+            <h3>Eyeshadow Palette</h3>
+            <div class="price"> Rp259.000 </div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- features section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="index.html" class="logo"><img src="image/logo.png"></a>
+            <p>Rate memberikan yang terbaik untuk semua</p>
+            <div class="share">
+                <a href="https://instagram.com/ratethingss?utm_medium=copy_link" class="fab fa-instagram"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +62-812-3456-7891 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> rate@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Bandung, Indonesia </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="about.html" class="links"> <i class="fas fa-arrow-right"></i> about us </a>        
+            <a href="index.html" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="product.html" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="categories.html" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="services.html" class="links"> <i class="fas fa-arrow-right"></i> services </a>    
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="image/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> Ratu Annisa Meiryan </span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+    </body></html>
